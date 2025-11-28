@@ -55,5 +55,5 @@ if __name__ == "__main__":
     train_arr,test_arr,_ = data_transformation.initiate_data_transformation(train_data,test_data)
     # last one we don't require because we have already created the pickle file.
 
-    modeltrainer = ModelTrainer()
-    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+    model_trainer = ModelTrainer()
+    print(model_trainer.initiate_model_trainer(train_arr,test_arr))
